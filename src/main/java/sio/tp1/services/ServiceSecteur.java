@@ -2,17 +2,16 @@ package sio.tp1.services;
 
 import org.springframework.stereotype.Service;
 import sio.tp1.entities.Secteur;
-import sio.tp1.repositories.RepositoryEmploye;
-import sio.tp1.repositories.RepositoryService;
+import sio.tp1.repositories.RepositorySecteur;
 
 import java.util.List;
 
 @Service
 public class ServiceSecteur
 {
-    private final RepositoryService repositoryService;
+    private final RepositorySecteur repositoryService;
 
-    public ServiceSecteur(RepositoryService repositoryService) {
+    public ServiceSecteur(RepositorySecteur repositoryService) {
         this.repositoryService = repositoryService;
     }
 
