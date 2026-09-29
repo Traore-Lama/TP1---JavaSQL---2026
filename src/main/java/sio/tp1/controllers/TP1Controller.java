@@ -7,13 +7,14 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import org.springframework.stereotype.Component;
 import sio.tp1.services.ServiceEmploye;
 import sio.tp1.services.ServiceSecteur;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
-
+@Component
 public class TP1Controller implements Initializable
 {
 
